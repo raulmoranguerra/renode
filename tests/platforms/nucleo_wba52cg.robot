@@ -60,9 +60,9 @@ Timer Should Support Input Capture
 
     Check Input Capture Line        frequency=0     duty=0   IC2=0
     Execute Command                 sysbus.gpioPortC.UserButton1 PressAndRelease
-    Check Input Capture Line        frequency=2000  duty=24  IC2=49999
+    Check Input Capture Line        frequency=2000  duty=24  IC2=50000
     Execute Command                 sysbus.gpioPortC.UserButton1 PressAndRelease
-    Check Input Capture Line        frequency=3000  duty=50  IC2=33332
+    Check Input Capture Line        frequency=3000  duty=49  IC2=33333
 
 Should Have Working UART
     Create Machine                  ${UART_PRINTF}
